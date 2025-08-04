@@ -18,10 +18,71 @@ void printMan(int loses) {
         cout << "  / \\       ||" << endl;
         cout << " /   \\      ||" << endl;
     }
+    else if (loses == 1) {
+        cout << "            ()" << endl;
+        cout << "   ,________||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   O        ||" << endl;
+        cout << "  /|\\       ||" << endl;
+        cout << " / | \\      ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "    \\       ||" << endl;
+        cout << "     \\      ||" << endl;
+    }
+    else if (loses == 2) {
+        cout << "            ()" << endl;
+        cout << "   ,________||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   O        ||" << endl;
+        cout << "  /|\\       ||" << endl;
+        cout << " / | \\      ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "            ||" << endl;
+        cout << "            ||" << endl;
+    }
+    else if (loses == 3) {
+        cout << "            ()" << endl;
+        cout << "   ,________||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   O        ||" << endl;
+        cout << "   |\\       ||" << endl;
+        cout << "   | \\      ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "            ||" << endl;
+        cout << "            ||" << endl;
+    }
+    else if (loses == 4) {
+        cout << "            ()" << endl;
+        cout << "   ,________||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   O        ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "            ||" << endl;
+        cout << "            ||" << endl;
+    }
+    else if (loses == 5) {
+        cout << "            ()" << endl;
+        cout << "   ,________||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   |        ||" << endl;
+        cout << "   O        ||" << endl;
+        cout << "            ||" << endl;
+        cout << "            ||" << endl;
+        cout << "            ||" << endl;
+        cout << "            ||" << endl;
+        cout << "            ||" << endl;
+        cout << "\nYou Lose!" << endl;
+    }
 }
 
 int main()
 {
-    printMan(0);
+    printMan(5);
 }
 

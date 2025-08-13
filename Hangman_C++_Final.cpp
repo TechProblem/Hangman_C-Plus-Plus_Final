@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <set>
+#include <string>
 using namespace std;
 
 void printMan(int loses) {
@@ -81,8 +82,18 @@ void printMan(int loses) {
     }
 }
 
+void underline(const string& text) {
+    cout << text << endl;
+	
+	cout << string(text.length(), '-') << endl;
+    
+}
+
 int main()
 {
-    printMan(5);
+    printMan(0);
+    cout << "\033[4mThis\033[0m \033[4mis\033[0m \033[4ma\033[0m \033[4mtemplate\033[0m \033[4mfor\033[0m \033[4munderlined\033[0m \033[4mphrases\033[0m" << endl;
+    cout << "____ __ _ ________ ___ __________ _______" << endl;
+    underline("This is a template for underlined phrases");
 }
 

@@ -129,6 +129,7 @@ int main()
 
     // DEBUG PHRASE
     cout << "Random Phrase: " << phrase << endl;
+    cout << endl;
 
     set<char> guessedLetters;
     int loses = 0;

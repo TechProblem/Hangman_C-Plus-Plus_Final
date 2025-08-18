@@ -126,7 +126,10 @@ int main()
     cout << endl;
     phrase = phrases[0];
     selectRandomPhrase(phrase);
+
+    // DEBUG PHRASE
     cout << "Random Phrase: " << phrase << endl;
+
     set<char> guessedLetters;
     int loses = 0;
     while (loses < 5) {

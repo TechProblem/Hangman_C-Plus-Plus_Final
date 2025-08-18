@@ -83,6 +83,6 @@ void printMan(int loses) {
 
 int main()
 {
-    printMan(5);
+    printMan(2);
 }
 
